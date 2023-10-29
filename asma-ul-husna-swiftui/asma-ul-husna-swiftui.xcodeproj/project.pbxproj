@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D3DE2FB2AEF1B5700EE0310 /* asma_ul_husna_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DE2FA2AEF1B5700EE0310 /* asma_ul_husna_swiftuiApp.swift */; };
+		4D3DE2FD2AEF1B5700EE0310 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DE2FC2AEF1B5700EE0310 /* ContentView.swift */; };
+		4D3DE2FF2AEF1B5800EE0310 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DE2FE2AEF1B5800EE0310 /* Assets.xcassets */; };
+		4D3DE3022AEF1B5800EE0310 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DE3012AEF1B5800EE0310 /* Preview Assets.xcassets */; };
+		4D3DE30C2AEF1B5800EE0310 /* asma_ul_husna_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DE30B2AEF1B5800EE0310 /* asma_ul_husna_swiftuiTests.swift */; };
+		4D3DE3162AEF1B5800EE0310 /* asma_ul_husna_swiftuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DE3152AEF1B5800EE0310 /* asma_ul_husna_swiftuiUITests.swift */; };
+		4D3DE3182AEF1B5800EE0310 /* asma_ul_husna_swiftuiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3DE3172AEF1B5800EE0310 /* asma_ul_husna_swiftuiUITestsLaunchTests.swift */; };
+		4D3DE3252AEF1B6200EE0310 /* asma-ul-husna.json in Resources */ = {isa = PBXBuildFile; fileRef = 4D3DE3242AEF1B6200EE0310 /* asma-ul-husna.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D3DE3082AEF1B5800EE0310 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D3DE2EF2AEF1B5700EE0310 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3DE2F62AEF1B5700EE0310;
+			remoteInfo = "asma-ul-husna-swiftui";
+		};
+		4D3DE3122AEF1B5800EE0310 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D3DE2EF2AEF1B5700EE0310 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3DE2F62AEF1B5700EE0310;
+			remoteInfo = "asma-ul-husna-swiftui";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D3DE2F72AEF1B5700EE0310 /* asma-ul-husna-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "asma-ul-husna-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3DE2FA2AEF1B5700EE0310 /* asma_ul_husna_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asma_ul_husna_swiftuiApp.swift; sourceTree = "<group>"; };
+		4D3DE2FC2AEF1B5700EE0310 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D3DE2FE2AEF1B5800EE0310 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D3DE3012AEF1B5800EE0310 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D3DE3072AEF1B5800EE0310 /* asma-ul-husna-swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "asma-ul-husna-swiftuiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3DE30B2AEF1B5800EE0310 /* asma_ul_husna_swiftuiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asma_ul_husna_swiftuiTests.swift; sourceTree = "<group>"; };
+		4D3DE3112AEF1B5800EE0310 /* asma-ul-husna-swiftuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "asma-ul-husna-swiftuiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3DE3152AEF1B5800EE0310 /* asma_ul_husna_swiftuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asma_ul_husna_swiftuiUITests.swift; sourceTree = "<group>"; };
+		4D3DE3172AEF1B5800EE0310 /* asma_ul_husna_swiftuiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asma_ul_husna_swiftuiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D3DE3242AEF1B6200EE0310 /* asma-ul-husna.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "asma-ul-husna.json"; path = "../../asma-ul-husna.json"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D3DE2F42AEF1B5700EE0310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3DE3042AEF1B5800EE0310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3DE30E2AEF1B5800EE0310 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D3DE2EE2AEF1B5700EE0310 = {
+			isa = PBXGroup;
+			children = (
+				4D3DE2F92AEF1B5700EE0310 /* asma-ul-husna-swiftui */,
+				4D3DE30A2AEF1B5800EE0310 /* asma-ul-husna-swiftuiTests */,
+				4D3DE3142AEF1B5800EE0310 /* asma-ul-husna-swiftuiUITests */,
+				4D3DE2F82AEF1B5700EE0310 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D3DE2F82AEF1B5700EE0310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D3DE2F72AEF1B5700EE0310 /* asma-ul-husna-swiftui.app */,
+				4D3DE3072AEF1B5800EE0310 /* asma-ul-husna-swiftuiTests.xctest */,
+				4D3DE3112AEF1B5800EE0310 /* asma-ul-husna-swiftuiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D3DE2F92AEF1B5700EE0310 /* asma-ul-husna-swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				4D3DE3242AEF1B6200EE0310 /* asma-ul-husna.json */,
+				4D3DE2FA2AEF1B5700EE0310 /* asma_ul_husna_swiftuiApp.swift */,
+				4D3DE2FC2AEF1B5700EE0310 /* ContentView.swift */,
+				4D3DE2FE2AEF1B5800EE0310 /* Assets.xcassets */,
+				4D3DE3002AEF1B5800EE0310 /* Preview Content */,
+			);
+			path = "asma-ul-husna-swiftui";
+			sourceTree = "<group>";
+		};
+		4D3DE3002AEF1B5800EE0310 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D3DE3012AEF1B5800EE0310 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4D3DE30A2AEF1B5800EE0310 /* asma-ul-husna-swiftuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D3DE30B2AEF1B5800EE0310 /* asma_ul_husna_swiftuiTests.swift */,
+			);
+			path = "asma-ul-husna-swiftuiTests";
+			sourceTree = "<group>";
+		};
+		4D3DE3142AEF1B5800EE0310 /* asma-ul-husna-swiftuiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D3DE3152AEF1B5800EE0310 /* asma_ul_husna_swiftuiUITests.swift */,
+				4D3DE3172AEF1B5800EE0310 /* asma_ul_husna_swiftuiUITestsLaunchTests.swift */,
+			);
+			path = "asma-ul-husna-swiftuiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D3DE2F62AEF1B5700EE0310 /* asma-ul-husna-swiftui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3DE31B2AEF1B5800EE0310 /* Build configuration list for PBXNativeTarget "asma-ul-husna-swiftui" */;
+			buildPhases = (
+				4D3DE2F32AEF1B5700EE0310 /* Sources */,
+				4D3DE2F42AEF1B5700EE0310 /* Frameworks */,
+				4D3DE2F52AEF1B5700EE0310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "asma-ul-husna-swiftui";
+			productName = "asma-ul-husna-swiftui";
+			productReference = 4D3DE2F72AEF1B5700EE0310 /* asma-ul-husna-swiftui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D3DE3062AEF1B5800EE0310 /* asma-ul-husna-swiftuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3DE31E2AEF1B5800EE0310 /* Build configuration list for PBXNativeTarget "asma-ul-husna-swiftuiTests" */;
+			buildPhases = (
+				4D3DE3032AEF1B5800EE0310 /* Sources */,
+				4D3DE3042AEF1B5800EE0310 /* Frameworks */,
+				4D3DE3052AEF1B5800EE0310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D3DE3092AEF1B5800EE0310 /* PBXTargetDependency */,
+			);
+			name = "asma-ul-husna-swiftuiTests";
+			productName = "asma-ul-husna-swiftuiTests";
+			productReference = 4D3DE3072AEF1B5800EE0310 /* asma-ul-husna-swiftuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D3DE3102AEF1B5800EE0310 /* asma-ul-husna-swiftuiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3DE3212AEF1B5800EE0310 /* Build configuration list for PBXNativeTarget "asma-ul-husna-swiftuiUITests" */;
+			buildPhases = (
+				4D3DE30D2AEF1B5800EE0310 /* Sources */,
+				4D3DE30E2AEF1B5800EE0310 /* Frameworks */,
+				4D3DE30F2AEF1B5800EE0310 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D3DE3132AEF1B5800EE0310 /* PBXTargetDependency */,
+			);
+			name = "asma-ul-husna-swiftuiUITests";
+			productName = "asma-ul-husna-swiftuiUITests";
+			productReference = 4D3DE3112AEF1B5800EE0310 /* asma-ul-husna-swiftuiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D3DE2EF2AEF1B5700EE0310 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4D3DE2F62AEF1B5700EE0310 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					4D3DE3062AEF1B5800EE0310 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 4D3DE2F62AEF1B5700EE0310;
+					};
+					4D3DE3102AEF1B5800EE0310 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 4D3DE2F62AEF1B5700EE0310;
+					};
+				};
+			};
+			buildConfigurationList = 4D3DE2F22AEF1B5700EE0310 /* Build configuration list for PBXProject "asma-ul-husna-swiftui" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D3DE2EE2AEF1B5700EE0310;
+			productRefGroup = 4D3DE2F82AEF1B5700EE0310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D3DE2F62AEF1B5700EE0310 /* asma-ul-husna-swiftui */,
+				4D3DE3062AEF1B5800EE0310 /* asma-ul-husna-swiftuiTests */,
+				4D3DE3102AEF1B5800EE0310 /* asma-ul-husna-swiftuiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D3DE2F52AEF1B5700EE0310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3DE3252AEF1B6200EE0310 /* asma-ul-husna.json in Resources */,
+				4D3DE3022AEF1B5800EE0310 /* Preview Assets.xcassets in Resources */,
+				4D3DE2FF2AEF1B5800EE0310 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3DE3052AEF1B5800EE0310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3DE30F2AEF1B5800EE0310 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D3DE2F32AEF1B5700EE0310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3DE2FD2AEF1B5700EE0310 /* ContentView.swift in Sources */,
+				4D3DE2FB2AEF1B5700EE0310 /* asma_ul_husna_swiftuiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3DE3032AEF1B5800EE0310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3DE30C2AEF1B5800EE0310 /* asma_ul_husna_swiftuiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3DE30D2AEF1B5800EE0310 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3DE3162AEF1B5800EE0310 /* asma_ul_husna_swiftuiUITests.swift in Sources */,
+				4D3DE3182AEF1B5800EE0310 /* asma_ul_husna_swiftuiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D3DE3092AEF1B5800EE0310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D3DE2F62AEF1B5700EE0310 /* asma-ul-husna-swiftui */;
+			targetProxy = 4D3DE3082AEF1B5800EE0310 /* PBXContainerItemProxy */;
+		};
+		4D3DE3132AEF1B5800EE0310 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D3DE2F62AEF1B5700EE0310 /* asma-ul-husna-swiftui */;
+			targetProxy = 4D3DE3122AEF1B5800EE0310 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D3DE3192AEF1B5800EE0310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D3DE31A2AEF1B5800EE0310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D3DE31C2AEF1B5800EE0310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"asma-ul-husna-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = 853K3F2A4U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.codeholic.asma-ul-husna-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D3DE31D2AEF1B5800EE0310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"asma-ul-husna-swiftui/Preview Content\"";
+				DEVELOPMENT_TEAM = 853K3F2A4U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.codeholic.asma-ul-husna-swiftui";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4D3DE31F2AEF1B5800EE0310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 853K3F2A4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.codeholic.asma-ul-husna-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/asma-ul-husna-swiftui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/asma-ul-husna-swiftui";
+			};
+			name = Debug;
+		};
+		4D3DE3202AEF1B5800EE0310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 853K3F2A4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.codeholic.asma-ul-husna-swiftuiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/asma-ul-husna-swiftui.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/asma-ul-husna-swiftui";
+			};
+			name = Release;
+		};
+		4D3DE3222AEF1B5800EE0310 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 853K3F2A4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.codeholic.asma-ul-husna-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "asma-ul-husna-swiftui";
+			};
+			name = Debug;
+		};
+		4D3DE3232AEF1B5800EE0310 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 853K3F2A4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "the.codeholic.asma-ul-husna-swiftuiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "asma-ul-husna-swiftui";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D3DE2F22AEF1B5700EE0310 /* Build configuration list for PBXProject "asma-ul-husna-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3DE3192AEF1B5800EE0310 /* Debug */,
+				4D3DE31A2AEF1B5800EE0310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3DE31B2AEF1B5800EE0310 /* Build configuration list for PBXNativeTarget "asma-ul-husna-swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3DE31C2AEF1B5800EE0310 /* Debug */,
+				4D3DE31D2AEF1B5800EE0310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3DE31E2AEF1B5800EE0310 /* Build configuration list for PBXNativeTarget "asma-ul-husna-swiftuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3DE31F2AEF1B5800EE0310 /* Debug */,
+				4D3DE3202AEF1B5800EE0310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3DE3212AEF1B5800EE0310 /* Build configuration list for PBXNativeTarget "asma-ul-husna-swiftuiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3DE3222AEF1B5800EE0310 /* Debug */,
+				4D3DE3232AEF1B5800EE0310 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D3DE2EF2AEF1B5700EE0310 /* Project object */;
+}
